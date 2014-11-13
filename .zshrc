@@ -11,3 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+alias subl="open -a 'Sublime Text'"
+alias b="bundle exec"
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+setopt no_share_history
