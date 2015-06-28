@@ -1,0 +1,23 @@
+"*":
+  editor:
+    preferredLineLength: 120
+    invisibles: {}
+  core:
+    themes: [
+      "unity-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+    ]
+  "exception-reporting":
+    userId: "28016320-e10f-721b-e1da-c8d0fe695c2d"
+  "release-notes":
+    viewedVersion: "0.92.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "e4435858d6bbe3f96a8b588bb25f902f8a7b5f46"
+  "tree-view": {}
