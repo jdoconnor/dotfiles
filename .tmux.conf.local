@@ -1,0 +1,6 @@
+# for use with maximum-awesome - https://github.com/square/maximum-awesome
+# Add your local tmux config here
+# use C-b, because defaults matter
+set-option -g prefix C-b
+unbind-key C-b
+bind-key C-b send-prefix
