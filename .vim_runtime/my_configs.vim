@@ -14,3 +14,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " nerdtree on the left
 let g:NERDTreeWinPos = "left"
+
+" don't complain on wq if the syntax isn't perfect
+let g:syntastic_check_on_wq = 0
+
+" remove whitespace on save https://github.com/ntpeters/vim-better-whitespace
+autocmd BufEnter * EnableStripWhitespaceOnSave
