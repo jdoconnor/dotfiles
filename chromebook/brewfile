@@ -1,18 +1,1 @@
-autoconf
-berkeley-db
-expat
-gdbm
-libbsd
-libyaml
-m4
-ncurses
-nvm
-openssl@1.1
-patchelf
-perl
-pkg-config
-rbenv
-readline
-ruby
-ruby-build
-zlib
+autoconf berkeley-db expat gdbm libbsd libyaml m4 ncurses nvm openssl@1.1 patchelf perl pkg-config rbenv readline ruby ruby-build zlib xz
