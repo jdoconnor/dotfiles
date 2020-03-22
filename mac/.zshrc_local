@@ -1,0 +1,9 @@
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+eval "$(pyenv init -)"
+eval "$(nodenv init -)"
+export PATH=$PATH:~/workspace/flutter/bin
+export PATH="$HOME/.nodenv/bin:$PATH"
+
+# use homebrew openssl
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
