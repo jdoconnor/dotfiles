@@ -7,7 +7,7 @@ cp home/jaydoconnor/.zshrc.local ~/.
 echo "\e[34m setting up tilix and zsh"
 echo 'deb http://ftp.debian.org/debian stretch-backports main' | sudo tee /etc/apt/sources.list.d/stretch-backports.list
 sudo apt update
-sudo apt -y install tilix zsh build-essential
+sudo apt -y install zsh build-essential
 sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
 
 echo "\e[34m setting up brew"
