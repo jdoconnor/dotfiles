@@ -1,0 +1,175 @@
+{
+  "markdownlint.config": {
+    "MD034": false
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "text.html.markdown.journal.task.open.bullet",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.open.marker",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.open.keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.open.text",
+        "settings": {}
+      },
+      {
+        "scope": "text.html.markdown.journal.task.completed.keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.completed.marker",
+        "settings": {
+          "foreground": "#AAAAAA"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.completed.text",
+        "settings": {
+          "foreground": "#AAAAAA"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.task.completed.bullet",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.memo.keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.memo.bullet",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.scope",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.link.keyword",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "text.html.markdown.journal.link.bullet",
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      }
+    ]
+  },
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "vscode-journal-view.showInExplorer": false,
+  "files.autoSave": "onFocusChange",
+  "search.usePCRE2": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "coverage-gutters.xmlname": "/Users/jay.oconnor/quip/tmp/cov.xml",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.jediEnabled": false,
+  "journal.patterns": {
+    "notes": {
+      "path": "${base}/${year}/${month}/${day}",
+      "file": "${input}.${ext}"
+    },
+    "entries": {
+      "path": "${base}",
+      "file": "${year}-${month}-${day}.${ext}"
+    }
+  },
+  "journal.templates": [
+    {
+      "name": "memo",
+      "template": "- MEMO ${localTime}: ${input}"
+    },
+    {
+      "name": "task",
+      "template": "- [] ${d:LL} - Task: ${input}"
+    },
+    {
+      "name": "entry",
+      "template": "# ${weekday}, ${localDate}\n\n## MUST DO\n\n## SHOULD DO\n\n## MAY DO\n\n## DELEGATE\n\n## ELIMINATE\n\n## Notes\n\n"
+    },
+    {
+      "name": "time",
+      "template": "${localTime}"
+    },
+    {
+      "name": "note",
+      "template": "# ${input}\n\n${tags}\n"
+    },
+    {
+      "name": "files",
+      "template": "- NOTE: [${title}](${link})"
+    }
+  ],
+  "precog.enable": false,
+  "linkexpander.quip.accessToken": "",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.linting.enabled": true,
+  "python.linting.pylintPath": "pylint",
+  "python.formatting.provider": "~/quip/bin/yapf",
+  "python.linting.pylintEnabled": true,
+  "[python]": {
+  },
+  "[ruby]": {
+    "editor.tabSize": 2
+  },
+  "[haml]": {
+    "editor.tabSize": 2
+  },
+  "[java]": {
+    "editor.tabSize": 4
+  },
+  "workbench.editor.enablePreview": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
+  "python.languageServer": "Pylance",
+  "editor.formatOnSave": true,
+  "prettier.disableLanguages": [
+    "html",
+    "HTML (Quip Template)"
+  ],
+  "foam.openDailyNote.directory": "/Users/jay.oconnor/Journal",
+  "foam.edit.linkReferenceDefinitions": "off"
+
+}
